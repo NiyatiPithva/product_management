@@ -1,0 +1,86 @@
+:root {
+  --background: #0f0e17;
+  --foreground: #e4e4ff;
+  --primary: #e4e4ff;
+  --secondary: #8b8ba7;
+  --muted: #6e6e8a;
+  --muted-foreground: #a7a9be;
+  --accent: #7f5af0;
+  --primary-light: #9375f8;
+  --card: #16161d;
+  --card-foreground: #f5f5ff;
+  --border: #2a2b3a;
+  --input: #2a2b3a;
+  --destructive: #ff5c5c;
+  --radius: 0.5rem;
+  --font-sans: "Rubik", sans-serif;
+  --font-display: "Space Grotesk", sans-serif;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    background-color: var(--background);
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 70px 0 0 0;
+    font-family: var(--font-display);
+    color: var(--foreground);
+}
+
+.heading {
+    position: relative;
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.tableF {
+    width: 40%;
+    border: 1px dotted;
+    margin-top: 50px;
+}
+table {
+    width: 100%;
+    display: flexbox;
+    padding: 40px;
+}
+.label {
+    width: 40%;
+    font-size: larger;
+    font-weight: 900;
+}
+.textField {
+    width: 60%;
+}
+
+input {
+    width: 90%;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+select {
+    font-size: 17px;
+    font-weight: 700;
+    width: 94%;
+    padding: 5px;
+    border-radius: 5px;
+}
+option {
+    font-weight: 600;
+}
+.btn {
+    padding: 10px;
+    width: 97%;
+    border-radius: 5px;
+    background-color: var(--accent);
+    color: var(--foreground);
+    font-size: large;
+    font-weight: 800;
+}
