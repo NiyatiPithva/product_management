@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Products</title>
     <link rel="stylesheet" href="css/styles.css"/>
-
+    <script src="./js/script.js" defer> </script>
 </head>
 <body>
     <div class="main">
@@ -31,10 +31,14 @@
                 <tr>
                     <td class="label">Quantity:</td>
                     <td class="textField">
-                        <select name="category">
-                            <option>Clothes</option>
-                            <option>T-shirts</option>
-                            <option>Shoes</option>
+                        <input type="text" name="qty" value=""/>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="label">Category:</td>
+                    <td class="textField">
+                        <select id="category" name="category">
+                            <option>select from these</option>
                         </select>
                     </td>
                 </tr>

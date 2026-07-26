@@ -83,4 +83,8 @@ option {
     color: var(--foreground);
     font-size: large;
     font-weight: 800;
+    cursor: pointer;
+}
+button {
+    width: 100%;
 }
